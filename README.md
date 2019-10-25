@@ -3,6 +3,9 @@
 + 一个px值转vw的VSCode插件
 + an VSCode extension convert 'px' to 'vw'
 
++ Author: Loong zupeng
++ Email: lzp0301@126.com
+
 # How to package with source code
 
 + 1.npm install vsce -g
@@ -33,7 +36,7 @@ html vue css less scss sass stylus
 # Configuration
 
 + `px2vw.baseWidth` Base viewport width, default: 16
-+ `px2vw.fixedDigits` Length of digits，default: 6。
++ `px2vw.fixedDigits` Length of digits，default: 6
 + `px2vw.autoRemovePrefixZero` Auto remove prefix, default: true
 
 Restart VSCode **[!Important]**
