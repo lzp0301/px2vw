@@ -2,7 +2,7 @@ export class px2vwProcess {
 
     constructor(private cog: any) { }
 
-    private rePx: RegExp = /([\d.]+)p(x)?/;
+    private rePx: RegExp = /([\d.]+)px/; // This line is corrected
 
     private rePxAll: RegExp = /([\d.]+)px/g;
 
